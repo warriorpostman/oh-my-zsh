@@ -1,5 +1,5 @@
 
-PROMPT='$fg[cyan]%n@%m:%~ $fg[yellow](node-$(nvm_ls "current")) $fg_bold[blue]$(git_prompt_info)
+PROMPT='$fg[cyan]%n@%m:%~ $fg[yellow](node-$(nvm_ls_current)) $fg_bold[blue]$(git_prompt_info)
 $fg_bold[magenta]>>> $reset_color'
 
 # git theming
